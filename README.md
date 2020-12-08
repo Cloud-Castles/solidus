@@ -11,7 +11,7 @@ example:
 curl localhost:8000
 
 returns:
-<html><body><h1>Mary Jackson</h1></body></html>
+```<html><body><h1>Mary Jackson</h1></body></html>```
 
 ## numbers 
 
@@ -23,7 +23,7 @@ example:
 curl localhost:8000
 
 returns:
-<html><body><h1>107</h1></body></html>
+```<html><body><h1>107</h1></body></html>```
 
 ## scale
 entrypoint: server.py
@@ -34,4 +34,4 @@ example:
 curl -X POST -d 54 localhost:8000
 
 returns:
-<html><body><h1>Loading CPU to 54 percent</h1></body></html>
+```<html><body><h1>Loading CPU to 54 percent</h1></body></html>```
