@@ -2,6 +2,7 @@
 
 
 ## services (containers)
+All applications require python 3.6 runtime.
 
 The application services are:
 
